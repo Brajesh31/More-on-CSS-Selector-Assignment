@@ -1,0 +1,52 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* ______________________________________Question 1.B______________ */
+
+nav a {
+    color: red;
+}
+nav > h2 {
+    background-color: #adacac;
+    text-align: center;
+    letter-spacing: 2px;
+}
+nav > div+p{
+    color: red;
+}
+
+
+/* _________________________________Question 1.C_______________________ */
+
+
+a[href="#"] {
+    color: red;
+    text-decoration: none;
+}
+a[class="active"] {
+    color: blueviolet;
+    text-decoration: underline;
+}
+a[target="_self"] {
+    background-color: #c9fde8;
+}
+
+
+
+/* ______________________________________Question 1.D______________________ */
+
+
+nav > p:last-child::after{
+    content: "...";
+}
+li::marker{
+    color: aquamarine;
+}
+
+nav > div + p + p::first-letter{
+    color: red;
+    font-size: 30px;
+}
